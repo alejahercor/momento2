@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.header1 img {
+    width: 150px;
+}
+
+.galeria-titulo {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.galeria-imagenes {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin: 20px 0; 
+
+.imagenes {
+    text-align: center;
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+}
+
+.galeria-imagenes {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin: 20px 0; 
+}
+
+.imagenes {
+    text-align: center; 
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.imagenes p {
+    position: fixed; 
+    bottom: 10px; 
+    left: 10px;
+    right: 10px; 
+    margin: 0; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 5px; 
+    padding: 5px; 
+    font-style: italic; 
+}
+
+
+.galeria-videos {
+    margin: 50px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: nowrap; 
+    gap: 20px; 
+}
+
+.videos video {
+    width: 300px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer2 img {
+    width: 30px;
+    margin: 0 10px;
+}
+@media (max-width: 768px) {
+    .videos video {
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
